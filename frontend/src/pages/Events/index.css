@@ -1,0 +1,78 @@
+.events-container {
+  min-height: 100vh;
+  background-color: #f1f5f9;
+  padding: 30px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.events-heading {
+  margin: 0;
+  color: #1e293b;
+}
+
+.tickets-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  height: 42px;
+  padding: 0 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  height: 42px;
+  padding: 0 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tickets-btn:hover,
+.logout-btn:hover,
+.book-btn:hover {
+  opacity: 0.9;
+}
+
+.events-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+
+.event-card {
+  width: 320px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.event-title {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.book-btn {
+  width: 100%;
+  height: 42px;
+  border: none;
+  border-radius: 8px;
+  background-color: #16a34a;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight: 500;
+}

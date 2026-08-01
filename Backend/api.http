@@ -1,0 +1,62 @@
+
+
+GET http://localhost:5000/ 
+
+### 
+
+POST http://localhost:5000/api/auth/register
+Content-Type: application/json
+
+{
+  "name": "Jithu",
+  "email": "jithender@gmail.com",
+  "password": "Jithu@_123@T",
+  "role": "attendee"
+} 
+
+###
+
+POST http://localhost:5000/api/auth/login
+Content-Type: application/json 
+
+{
+  "email":"jithu@gmail.com",
+  "password":"Jithu@20"
+}
+
+### 
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6ImF0dGVuZGVlIiwiaWF0IjoxNzg1NDA0Njk1fQ.HoI2dXDtq6TNMg1vXBGGJifCrCeMWf9KmbRBnCNTgOU
+{
+  "title": "Tech Conference",
+  "description": "React Workshop",
+  "category": "Technology",
+  "location": "Hyderabad",
+  "event_date": "2026-08-15",
+  "event_time": "10:00",
+  "capacity": 100,
+  "ticket_price": 500
+}
+
+### 
+
+POST http://localhost:5000/api/events
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6ImF0dGVuZGVlIiwiaWF0IjoxNzg1NDA0Njk1fQ.HoI2dXDtq6TNMg1vXBGGJifCrCeMWf9KmbRBnCNTgOU
+
+{
+  "title": "Startup Meetup",
+  "description": "Networking event for entrepreneurs",
+  "category": "Business",
+  "location": "Pune",
+  "event_date": "2026-09-25",
+  "event_time": "15:00",
+  "capacity": 120,
+  "ticket_price": 300
+}
+
+###
+
+GET http://localhost:5000/check-tickets-schema 
+
