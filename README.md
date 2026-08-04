@@ -45,6 +45,8 @@ Event Ticket Booking System is a full-stack web application that allows users to
 
 ## Screenshots
 
+## Screenshots
+
 ### Login Page
 ![Login Page](screenshots/login-page.png)
 
