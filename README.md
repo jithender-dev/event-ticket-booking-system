@@ -59,6 +59,7 @@ Event Ticket Booking System is a full-stack web application that allows users to
 ### My Tickets Page
 ![My Tickets Page](screenshots/my-tickets.png)
 
+On GitHub:
 ## Author
 
 Jithender
