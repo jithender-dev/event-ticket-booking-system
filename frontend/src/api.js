@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const api = axios.create({
-  baseURL: "http://localhost:5000",
+  baseURL: "https://event-ticket-booking-system-zbd5.onrender.com",
 })
 
-export default api 
+export default api  
